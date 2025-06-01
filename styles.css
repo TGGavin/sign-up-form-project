@@ -40,6 +40,25 @@ h1, h2, h3, h4, h5, h6 {
          url(fonts/windsong-webfont.woff);
 }
 
+.page-cntr {
+    display: flex;
+    width: 66%;
+    justify-self: center;
+    height: 100%;
+}
+
+.img-container {
+    background-image: url(img/boston-public-library-NHkB_xC4etc-unsplash.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 44%;
+    height: 100vh;
+}
+
+.sign-up-cntr {
+    width: 56%;
+}
+
 h1 {
     font-family: "Windsong";
     font-weight: 500;
