@@ -34,3 +34,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* After CSS Reset */
+@font-face {
+    font-family: "Windsong";
+    src: url(fonts/windsong-webfont.woff2),
+         url(fonts/windsong-webfont.woff);
+}
+
+h1 {
+    font-family: "Windsong";
+    font-weight: 500;
+}
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
