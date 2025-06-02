@@ -41,7 +41,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 :root {
-  --img-cntr-margin-right: 36px
+  --img-cntr-margin-right: 0px
 }
 
 .page-cntr {
@@ -58,17 +58,37 @@ h1, h2, h3, h4, h5, h6 {
     width: 42%;
     height: 100vh;
     margin-right: var(--img-cntr-margin-right);
-}
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+} 
 
 .sign-up-cntr {
     width: 58%;
 }
 
+.img-container > footer {
+  justify-self: flex-end;
+  position: relative;
+  top: 214px;
+}
+
+*:link:active {
+  color: green;
+}
+*:link {
+  text-decoration: line;
+  color: black; 
+}
+
 h1 {
-    font-family: "Windsong";
+    /* font-family: "Windsong"; */
     font-weight: 500;
 }
 
 p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
