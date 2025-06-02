@@ -107,7 +107,7 @@ h1, h2, h3, h4, h5, h6 {
 fieldset {
   border: none;
   background-color: white;
-  padding: var(--space-from-splash-image);
+  padding-left: var(--space-from-splash-image);
 }
 
 .sign-up-cntr > *:not(.sign-up-form) {
