@@ -56,7 +56,7 @@ h1, h2, h3, h4, h5, h6 {
     background-color: whitesmoke;
 }
 
-.img-container {
+.splash-img-cntr {
     background-image: url(img/boston-public-library-NHkB_xC4etc-unsplash.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -99,7 +99,7 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-user-drag: none;
 }
 
-.img-container > footer {
+.img-cred {
   justify-self: flex-end;
   position: relative;
   top: 20%;
@@ -139,16 +139,13 @@ button:active {
 }
 
 *:link:active {
-  color: green;
+  color: rgb(2, 70, 2);
 }
 *:link {
-  text-decoration: line;
-  color: black; 
+  color: #4CAF50; 
 }
 
-h1 {
-  font-weight: 500;
-}
+
 
 p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
