@@ -119,6 +119,25 @@ fieldset {
   margin-left: var(--space-from-splash-image);
 }
 
+button {
+  width: 224px;
+  color: mediumvioletred;
+  border: none;
+  background-color: palegoldenrod;
+  border-radius: 0.6em;
+  height: 45px;
+  font-size: 1.3em;
+}
+
+button:hover {
+  background-color: rgb(224, 210, 131);
+  color: red;
+}
+
+button:active {
+  background-color: rgb(245, 245, 189);
+}
+
 *:link:active {
   color: green;
 }
