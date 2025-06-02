@@ -69,15 +69,28 @@ h1, h2, h3, h4, h5, h6 {
     width: 58%;
 }
 
-.img-container > footer {
-  justify-self: flex-end;
-  position: relative;
-  top: 20%;
+.splash-h-cntr {
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 
 .splash-heading {
   color: white;
-  font-size: 5em
+  font-size: 5em;
+}
+
+.splash-h-cntr > img {
+  width: 85px;
+  height: 114px;
+}
+
+.img-container > footer {
+  justify-self: flex-end;
+  position: relative;
+  top: 20%;
 }
 
 *:link:active {
