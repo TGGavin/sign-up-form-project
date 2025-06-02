@@ -40,9 +40,13 @@ h1, h2, h3, h4, h5, h6 {
          url(fonts/windsong-webfont.woff);
 }
 
+:root {
+  --img-cntr-margin-right: 36px
+}
+
 .page-cntr {
     display: flex;
-    width: 66%;
+    width: calc(70% + var(--img-cntr-margin-right));
     justify-self: center;
     height: 100%;
 }
@@ -51,12 +55,13 @@ h1, h2, h3, h4, h5, h6 {
     background-image: url(img/boston-public-library-NHkB_xC4etc-unsplash.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    width: 44%;
+    width: 42%;
     height: 100vh;
+    margin-right: var(--img-cntr-margin-right);
 }
 
 .sign-up-cntr {
-    width: 56%;
+    width: 58%;
 }
 
 h1 {
