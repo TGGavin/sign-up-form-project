@@ -96,6 +96,7 @@ h1, h2, h3, h4, h5, h6 {
 .splash-h-cntr > img {
   width: 85px;
   height: 114px;
+  -webkit-user-drag: none;
 }
 
 .img-container > footer {
