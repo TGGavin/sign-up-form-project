@@ -40,14 +40,20 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 :root {
-  --img-cntr-margin-right: 40px
+  --img-cntr-margin-right: 0px;
+  --space-from-splash-image: 40px;
 }
+
+  body {
+    background-color:rgb(32, 33, 34);
+  }
 
 .page-cntr {
     display: flex;
     width: calc(70% + var(--img-cntr-margin-right));
     justify-self: center;
     height: 100%;
+    background-color: whitesmoke;
 }
 
 .img-container {
@@ -100,6 +106,12 @@ h1, h2, h3, h4, h5, h6 {
 
 fieldset {
   border: none;
+  background-color: white;
+  padding: var(--space-from-splash-image);
+}
+
+.sign-up-cntr > *:not(.sign-up-form) {
+  margin-left: var(--space-from-splash-image);
 }
 
 *:link:active {
