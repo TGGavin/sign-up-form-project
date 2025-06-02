@@ -40,7 +40,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 :root {
-  --img-cntr-margin-right: 0px;
   --space-from-splash-image: 40px;
 }
 
@@ -50,7 +49,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .page-cntr {
     display: flex;
-    width: calc(70% + var(--img-cntr-margin-right));
+    width: 70%;
     justify-self: center;
     height: 100%;
     background-color: whitesmoke;
@@ -63,7 +62,6 @@ h1, h2, h3, h4, h5, h6 {
     width: 42%;
     min-width: 400px;
     height: 100vh;
-    margin-right: var(--img-cntr-margin-right);
 
     display: flex;
     flex-direction: column;
@@ -107,12 +105,37 @@ h1, h2, h3, h4, h5, h6 {
 
 form {
   box-shadow: 1px 6px 20px -11px black;
+  background-color: white;
 }
 
 fieldset {
   border: none;
-  background-color: white;
   padding-left: var(--space-from-splash-image);
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+fieldset > div {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  padding-left: 1ch;
+  border-radius: 0.4em;
+  font-size: 1.2em;
+  border: 1.5px black solid;
+}
+
+input:invalid {
+  border-color: red;
+}
+
+form > h2 {
+  margin-left: var(--space-from-splash-image);
+  margin-top: 12px;
 }
 
 .sign-up-cntr > *:not(.sign-up-form) {
