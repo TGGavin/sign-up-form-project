@@ -27,7 +27,7 @@
             </h2>
             <h2>You <em>know</em> you want to.</h2>
             
-            <form action="" method="post" class="sign-up-form">
+            <form action="" method="post" class="sign-up-form" id="acc-form">
                 <h2>Let's do to this!</h2>
                 
                 <fieldset>
@@ -54,17 +54,17 @@
 
                     <div>
                         <label for="password">PASSWORD</label>
-                        <input type="password" name="password" id="password">
+                        <input type="password" name="password" id="password" minlength="6">
                     </div>
 
                     <div> 
                         <label for="password-confirm">CONFIRM PASSWORD</label>
-                        <input type="password" name="pw-confirm" id="password-confirm">
+                        <input type="password" name="pw-confirm" id="password-confirm" minlength="6">
                     </div>
                 </fieldset>
 
             </form>
-            <button>Create Account</button>
+            <button form="acc-form" type="submit">Create Account</button>
             <p>Already have an account? <a href="#">Log in</a></p>
         </section>
 
