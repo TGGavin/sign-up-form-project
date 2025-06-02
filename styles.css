@@ -111,6 +111,8 @@ form {
 fieldset {
   border: none;
   padding-left: var(--space-from-splash-image);
+  margin-bottom: 30px;
+  margin-top: 12px;
 
   display: flex;
   flex-wrap: wrap;
@@ -120,13 +122,19 @@ fieldset {
 fieldset > div {
   display: flex;
   flex-direction: column;
+  padding-right: 40px;
 }
 
 input {
   padding-left: 1ch;
   border-radius: 0.4em;
   font-size: 1.2em;
-  border: 1.5px black solid;
+  border: 1.5px #c9cacc solid;
+}
+
+input:focus-visible {
+  outline: solid rgb(4, 78, 189) 1px;
+  box-shadow: 0px 0px 4px black;
 }
 
 input:invalid {
