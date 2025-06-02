@@ -35,9 +35,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /* After CSS Reset */
 @font-face {
-    font-family: "Windsong";
-    src: url(fonts/windsong-webfont.woff2),
-         url(fonts/windsong-webfont.woff);
+    font-family: "Greek";
+    src: url(fonts/achilles3-webfont.woff2)
 }
 
 :root {
@@ -84,6 +83,7 @@ h1, h2, h3, h4, h5, h6 {
 .splash-heading {
   color: white;
   font-size: 5em;
+  font-family: "Greek"
 }
 
 .splash-h-cntr > img {
